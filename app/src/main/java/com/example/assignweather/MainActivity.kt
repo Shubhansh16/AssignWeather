@@ -13,7 +13,7 @@ import com.example.assignweather.viewmodel.WeatherViewModel
 
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: WeatherViewModel
-    private val apiKey = "d25833e0a98b8c56c947dc9cd94f3c7e" // Replace with your OpenWeatherMap API key
+    private val apiKey = "YOUR_API_KEY" // Replace with your OpenWeatherMap API key
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
